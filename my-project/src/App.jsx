@@ -1,16 +1,24 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useEffect } from 'react'
 import './App.css'
-
+import Home from './Components/Home';
+import Contact from './Components/Contact';
+import Navbar from './Components/Navbar';
+import Seven from './Components/Seven';
+import Eight from './Components/Eight';
+import Nine from './Components/Nine';
+import ImageUpload from './Components/ImageUpload';
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div>
-        Hello Good morning
-      </div>
+      {/* <Navbar /> */}
+      {/* <Seven/> */}
+      {/* <Eight /> */}
+      {/* <Nine/> */}
+      <ImageUpload/>
+
     </>
   )
 }
