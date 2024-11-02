@@ -8,6 +8,7 @@ import Seven from './Components/Seven';
 import Eight from './Components/Eight';
 import Nine from './Components/Nine';
 import ImageUpload from './Components/ImageUpload';
+import Register from './Components/Register';
 function App() {
 
 
@@ -17,7 +18,8 @@ function App() {
       {/* <Seven/> */}
       {/* <Eight /> */}
       {/* <Nine/> */}
-      <ImageUpload/>
+      {/* <ImageUpload/> */}
+      <Register/>
 
     </>
   )
